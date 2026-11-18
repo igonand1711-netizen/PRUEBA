@@ -1,3 +1,667 @@
+# Comparación de entornos de desarrollo (IDE)
+
+## 1. Organización y elección de los entornos
+
+### 1.1. Integrantes del grupo
+
+| Integrante | Responsabilidad temporal |
+|---|---|
+| Integrante 1 | Coordinación de evidencias |
+| Integrante 2 | Comprobación de licencias y versiones |
+| Integrante 3 | Revisión de módulos, plugins y extensiones |
+| Integrante 4 | Revisión de construcción y artefactos |
+| Integrante 5 | Preparación de la exposición |
+
+Las responsabilidades son temporales. Todos los integrantes deben realizar individualmente las pruebas correspondientes.
+
+### 1.2. Entornos seleccionados
+
+| Característica | Entorno 1 | Entorno 2 |
+|---|---|---|
+| Producto | [Nombre] | [Nombre] |
+| Edición | [Edición] | [Edición] |
+| Versión | [Versión] | [Versión] |
+| Sistema operativo | [SO] | [SO] |
+| Licencia | [Licencia] | [Licencia] |
+| Fuente oficial | [URL] | [URL] |
+
+### 1.3. Condiciones de comparación
+
+- Mismo código fuente cuando se comparen los entornos.
+- Misma versión de Python o JDK siempre que sea posible.
+- Mismo tipo de tarea.
+- Mismo equipo informático.
+- Mismas condiciones de ejecución.
+
+**Limitaciones detectadas:**
+
+[Indicar las condiciones que no se hayan podido mantener.]
+
+---
+
+# 2. Instalación de los entornos (CE 2.a)
+
+## 2.1. Ficha de los entornos (E-2A-01)
+
+### Entorno 1
+
+| Campo | Información |
+|---|---|
+| Producto | [Nombre] |
+| Edición | [Edición] |
+| Versión | [Versión] |
+| Licencia | [Licencia] |
+| Sistema operativo | [SO] |
+| Fuente de descarga | [URL] |
+| Componentes seleccionados | [Componentes] |
+
+### Entorno 2
+
+| Campo | Información |
+|---|---|
+| Producto | [Nombre] |
+| Edición | [Edición] |
+| Versión | [Versión] |
+| Licencia | [Licencia] |
+| Sistema operativo | [SO] |
+| Fuente de descarga | [URL] |
+| Componentes seleccionados | [Componentes] |
+
+## 2.2. Proceso de instalación (E-2A-02)
+
+### Entorno 1
+
+1. Descarga desde la página oficial.
+2. Inicio del instalador.
+3. Selección de componentes.
+4. Configuración de opciones.
+5. Finalización de la instalación.
+
+**Evidencias:**
+
+- [Inicio del instalador](evidencias/2A/entorno1-inicio.png)
+- [Opciones de instalación](evidencias/2A/entorno1-opciones.png)
+- [Finalización](evidencias/2A/entorno1-final.png)
+
+### Entorno 2
+
+1. Descarga desde la página oficial.
+2. Inicio del instalador.
+3. Selección de componentes.
+4. Configuración de opciones.
+5. Finalización de la instalación.
+
+**Evidencias:**
+
+- [Inicio del instalador](evidencias/2A/entorno2-inicio.png)
+- [Opciones de instalación](evidencias/2A/entorno2-opciones.png)
+- [Finalización](evidencias/2A/entorno2-final.png)
+
+## 2.3. Comprobación final (E-2A-03)
+
+| Comprobación | Entorno 1 | Entorno 2 |
+|---|---|---|
+| Se inicia correctamente | [Sí/No] | [Sí/No] |
+| Versión comprobada | [Versión] | [Versión] |
+| Coincide con la registrada | [Sí/No] | [Sí/No] |
+
+**Evidencias:**
+
+- [Versión del entorno 1](evidencias/2A/entorno1-about.png)
+- [Versión del entorno 2](evidencias/2A/entorno2-about.png)
+
+## 2.4. Preguntas
+
+**P-2A-01. ¿Qué diferencias observaste en el proceso y en las opciones de instalación?**
+
+[Respuesta.]
+
+**P-2A-02. ¿Qué licencia, edición y componentes tiene cada entorno?**
+
+[Respuesta.]
+
+**P-2A-03. ¿Qué ventajas o limitaciones aporta cada modelo de distribución para el proyecto elegido?**
+
+[Respuesta.]
+
+---
+
+# 3. Gestión de módulos, plugins y extensiones (CE 2.b)
+
+## 3.1. Complemento elegido (E-2B-01)
+
+Necesidad común: [Python / Kotlin / pruebas / análisis de código / formateo].
+
+| Característica | Entorno 1 | Entorno 2 |
+|---|---|---|
+| Nombre del complemento | [Nombre] | [Nombre] |
+| Tipo | [Plugin/Extensión] | [Plugin/Extensión] |
+| Versión | [Versión] | [Versión] |
+| Permisos | [Permisos] | [Permisos] |
+| Documentación | [URL] | [URL] |
+
+## 3.2. Instalación y funcionamiento (E-2B-02)
+
+### Entorno 1
+
+- Estado anterior: [Descripción].
+- Instalación: [Procedimiento].
+- Configuración: [Configuración].
+- Prueba realizada: [Descripción].
+- Resultado: [Resultado].
+
+**Evidencias:**
+
+- [Estado anterior](evidencias/2B/entorno1-antes.png)
+- [Instalación](evidencias/2B/entorno1-instalacion.png)
+- [Configuración y funcionamiento](evidencias/2B/entorno1-funcionamiento.png)
+
+### Entorno 2
+
+- Estado anterior: [Descripción].
+- Instalación: [Procedimiento].
+- Configuración: [Configuración].
+- Prueba realizada: [Descripción].
+- Resultado: [Resultado].
+
+**Evidencias:**
+
+- [Estado anterior](evidencias/2B/entorno2-antes.png)
+- [Instalación](evidencias/2B/entorno2-instalacion.png)
+- [Configuración y funcionamiento](evidencias/2B/entorno2-funcionamiento.png)
+
+## 3.3. Desactivación o eliminación (E-2B-03)
+
+| Operación | Entorno 1 | Entorno 2 |
+|---|---|---|
+| Complemento desactivado o eliminado | [Resultado] | [Resultado] |
+| Proyecto sigue funcionando | [Sí/No] | [Sí/No] |
+
+**Evidencias:**
+
+- [Estado posterior del entorno 1](evidencias/2B/entorno1-despues.png)
+- [Estado posterior del entorno 2](evidencias/2B/entorno2-despues.png)
+
+## 3.4. Preguntas
+
+**P-2B-01. ¿Cómo se añade y se elimina o desactiva el complemento en cada entorno?**
+
+[Respuesta.]
+
+**P-2B-02. ¿Qué función aporta y qué herramienta externa necesita, si la necesita?**
+
+[Respuesta.]
+
+**P-2B-03. ¿Qué riesgos de mantenimiento, permisos o compatibilidad has comprobado?**
+
+[Respuesta.]
+
+---
+
+# 4. Personalización y automatización (CE 2.c)
+
+## 4.1. Personalización (E-2C-01)
+
+### Entorno 1
+
+- Personalización realizada: [Tema, fuente, paneles o atajos].
+- Objetivo: [Descripción].
+- Antes: [Captura].
+- Después: [Captura].
+
+### Entorno 2
+
+- Personalización realizada: [Tema, fuente, paneles o atajos].
+- Objetivo: [Descripción].
+- Antes: [Captura].
+- Después: [Captura].
+
+**Evidencias:**
+
+- [Antes y después del entorno 1](evidencias/2C/entorno1-personalizacion.png)
+- [Antes y después del entorno 2](evidencias/2C/entorno2-personalizacion.png)
+
+## 4.2. Automatización configurada (E-2C-02)
+
+### Entorno 1
+
+| Campo | Información |
+|---|---|
+| Tarea | [Tarea] |
+| Comando | [Comando real] |
+| Directorio de trabajo | [Ruta] |
+| Intérprete/JDK | [Versión y ruta] |
+| Resultado | [Resultado] |
+
+### Entorno 2
+
+| Campo | Información |
+|---|---|
+| Tarea | [Tarea] |
+| Comando | [Comando real] |
+| Directorio de trabajo | [Ruta] |
+| Intérprete/JDK | [Versión y ruta] |
+| Resultado | [Resultado] |
+
+## 4.3. Ejecución verificable (E-2C-03)
+
+| Comprobación | Entorno 1 | Entorno 2 |
+|---|---|---|
+| Primera ejecución | [Resultado] | [Resultado] |
+| Segunda ejecución | [Resultado] | [Resultado] |
+| Salida coherente | [Sí/No] | [Sí/No] |
+| Archivos modificados | [Archivos] | [Archivos] |
+| Disparador | [Manual/Automático] | [Manual/Automático] |
+
+**Evidencias:**
+
+- [Ejecución del entorno 1](evidencias/2C/entorno1-ejecucion.png)
+- [Ejecución del entorno 2](evidencias/2C/entorno2-ejecucion.png)
+
+## 4.4. Preguntas
+
+**P-2C-01. ¿Qué parte de la personalización es personal y cuál podría compartir el equipo?**
+
+[Respuesta.]
+
+**P-2C-02. ¿Qué pasos manuales ahorra la automatización?**
+
+[Respuesta.]
+
+**P-2C-03. ¿Qué riesgo tendría ejecutarla con un intérprete, una ruta o una versión distinta?**
+
+[Respuesta.]
+
+---
+
+# 5. Actualización del entorno (CE 2.d)
+
+## 5.1. Inventario de versiones (E-2D-01)
+
+| Componente | Entorno 1 | Entorno 2 |
+|---|---|---|
+| IDE | [Versión] | [Versión] |
+| Plugin/extensión | [Versión] | [Versión] |
+| Python/JDK | [Versión] | [Versión] |
+| Sistema de construcción | [Gradle/Maven/Otro] | [Gradle/Maven/Otro] |
+| Sistema operativo | [Versión] | [Versión] |
+
+## 5.2. Política de actualización (E-2D-02)
+
+### Entorno 1
+
+- Configuración: [Descripción].
+- Política elegida: [Manual/Automática/Canal estable].
+- Justificación: [Motivo].
+
+### Entorno 2
+
+- Configuración: [Descripción].
+- Política elegida: [Manual/Automática/Canal estable].
+- Justificación: [Motivo].
+
+## 5.3. Comprobación y decisión (E-2D-03)
+
+| Comprobación | Entorno 1 | Entorno 2 |
+|---|---|---|
+| Actualizaciones disponibles | [Resultado] | [Resultado] |
+| Versión disponible | [Versión] | [Versión] |
+| Actualización realizada | [Sí/No] | [Sí/No] |
+| Motivo de la decisión | [Motivo] | [Motivo] |
+
+**Evidencias:**
+
+- [Comprobación de actualizaciones del entorno 1](evidencias/2D/entorno1-updates.png)
+- [Comprobación de actualizaciones del entorno 2](evidencias/2D/entorno2-updates.png)
+
+## 5.4. Comprobación posterior (E-2D-04)
+
+[Describir el reinicio, la comprobación del proyecto y la ejecución de la misma tarea de la sección 4.]
+
+## 5.5. Preguntas
+
+**P-2D-01. ¿Qué componente controla la actualización del IDE y cuál controla la de sus plugins o extensiones?**
+
+[Respuesta.]
+
+**P-2D-02. ¿Por qué has elegido una política automática o manual?**
+
+[Respuesta.]
+
+**P-2D-03. ¿Por qué es importante mantener el entorno actualizado y qué riesgos tiene actualizarlo sin comprobar la compatibilidad?**
+
+[Respuesta.]
+
+**P-2D-04. ¿Qué comprobaciones harías antes de aceptar una actualización importante?**
+
+[Respuesta.]
+
+---
+
+
+# 4.6. Parte individual: dos lenguajes en un mismo IDE (CE 2.e)
+
+## E-2E-01 — Código y configuración
+
+Para realizar esta actividad se han creado dos proyectos o módulos dentro del mismo IDE, uno utilizando Java y otro utilizando Kotlin/JVM.
+
+**Configuración del entorno:**
+
+- IDE utilizado: [Indicar IDE].
+- Versión del IDE: [Indicar versión].
+- JDK instalado: [Indicar versión].
+- Versión de Java: [Indicar versión].
+- Versión de Kotlin/JVM: [Indicar versión].
+- Sistema de construcción: [Gradle, Maven u otro].
+- Sistema operativo: [Indicar sistema operativo].
+
+**Archivos utilizados:**
+
+- `Main.java`: programa de cuenta atrás desarrollado en Java.
+- `Main.kt`: programa de cuenta atrás desarrollado en Kotlin.
+
+**Código Java (`Main.java`):**
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 10; i >= 0; i--) {
+            System.out.println(i);
+        }
+        System.out.println("¡Despegue!");
+    }
+}
+```
+
+**Código Kotlin (`Main.kt`):**
+
+```kotlin
+fun main() {
+    for (i in 10 downTo 0) {
+        println(i)
+    }
+    println("¡Despegue!")
+}
+```
+
+## E-2E-02 — Ejecución
+
+Se ejecutan ambos programas desde sus respectivas configuraciones de ejecución del IDE.
+
+**Configuración de ejecución de Java:**
+
+- Nombre de la configuración: [Indicar nombre].
+- Clase principal: [Indicar clase].
+- JDK utilizado: [Indicar versión].
+
+**Configuración de ejecución de Kotlin:**
+
+- Nombre de la configuración: [Indicar nombre].
+- Clase o función principal: [Indicar punto de entrada].
+- JDK utilizado: [Indicar versión].
+
+**Salida obtenida en Java:**
+
+```text
+[Pegar aquí la salida completa]
+```
+
+**Salida obtenida en Kotlin:**
+
+```text
+[Pegar aquí la salida completa]
+```
+
+**Evidencias:**
+
+- [Insertar captura de la ejecución de Java].
+- [Insertar captura de la ejecución de Kotlin].
+
+## E-2E-03 — Construcción y artefactos
+
+Se realiza una construcción explícita de ambos proyectos para comprobar qué archivos compilados y artefactos genera cada lenguaje.
+
+**Construcción de Java:**
+
+- Comando o tarea utilizada: [Indicar comando].
+- Carpeta de salida: [Indicar ruta].
+- Archivos generados: [Indicar archivos `.class`, JAR u otros].
+- Nombre del artefacto: [Indicar nombre].
+
+**Construcción de Kotlin:**
+
+- Comando o tarea utilizada: [Indicar comando].
+- Carpeta de salida: [Indicar ruta].
+- Archivos generados: [Indicar archivos `.class`, JAR u otros].
+- Nombre del artefacto: [Indicar nombre].
+
+**Evidencias:**
+
+- [Insertar captura de la construcción de Java].
+- [Insertar captura de la construcción de Kotlin].
+- [Insertar captura de las carpetas de salida y los artefactos generados].
+
+## P-2E-01. ¿Qué partes de la cadena de construcción son diferentes entre los dos lenguajes?
+
+[Escribir aquí la comparación entre los compiladores, las dependencias, las bibliotecas y las fases de construcción de Java y Kotlin.]
+
+## P-2E-02. ¿Qué configuraciones y artefactos genera el IDE en cada caso?
+
+[Describir aquí las configuraciones de ejecución, los puntos de entrada, las opciones del JDK y los artefactos generados por cada proyecto.]
+
+## P-2E-03. ¿Qué diferencia hay entre la salida de Run y el resultado de Build?
+
+[Explicar aquí la diferencia entre ejecutar un programa desde el IDE y realizar una construcción explícita para generar archivos compilados o artefactos.]
+
+---
+
+# 4.7. Parte individual: mismo código en dos entornos (CE 2.f)
+
+## E-2F-01 — Código y herramienta común
+
+Para realizar esta actividad se utiliza un único archivo `main.py` en dos entornos de desarrollo diferentes, manteniendo exactamente el mismo contenido.
+
+**Código utilizado (`main.py`):**
+
+```python
+for i in range(10, -1, -1):
+    print(i)
+print("¡Despegue!")
+```
+
+**Configuración de los entornos:**
+
+| Característica | IDE 1 | IDE 2 |
+|---|---|---|
+| Nombre del IDE | [Indicar] | [Indicar] |
+| Versión | [Indicar] | [Indicar] |
+| Sistema operativo | [Indicar] | [Indicar] |
+| Versión de Python | [Indicar] | [Indicar] |
+| Ruta del intérprete | [Indicar] | [Indicar] |
+| Entorno virtual | [Indicar] | [Indicar] |
+
+Se comprueba que el contenido del archivo `main.py` es idéntico en ambos entornos.
+
+**Evidencias:**
+
+- [Insertar captura del archivo abierto en el IDE 1].
+- [Insertar captura del mismo archivo abierto en el IDE 2].
+- [Insertar comprobación de que ambos archivos tienen el mismo contenido].
+
+## E-2F-02 — Ejecución y depuración
+
+Se selecciona el mismo intérprete de Python en ambos IDE y se ejecuta el archivo `main.py`.
+
+**Datos de ejecución en el IDE 1:**
+
+- Intérprete seleccionado: [Indicar].
+- Versión de Python: [Indicar].
+- Ruta del intérprete: [Indicar].
+- Configuración de ejecución: [Indicar].
+- Comando utilizado: [Indicar].
+
+**Salida obtenida:**
+
+```text
+[Pegar aquí la salida completa del IDE 1]
+```
+
+**Datos de ejecución en el IDE 2:**
+
+- Intérprete seleccionado: [Indicar].
+- Versión de Python: [Indicar].
+- Ruta del intérprete: [Indicar].
+- Configuración de ejecución: [Indicar].
+- Comando utilizado: [Indicar].
+
+**Salida obtenida:**
+
+```text
+[Pegar aquí la salida completa del IDE 2]
+```
+
+**Prueba de depuración:**
+
+Se coloca un punto de interrupción dentro del bucle para observar cómo cambia el valor de la variable `i` durante la ejecución.
+
+- Resultado de la depuración en el IDE 1: [Describir].
+- Resultado de la depuración en el IDE 2: [Describir].
+- Diferencias observadas: [Describir].
+
+**Evidencias:**
+
+- [Insertar captura de ejecución en el IDE 1].
+- [Insertar captura de ejecución en el IDE 2].
+- [Insertar captura del punto de interrupción en el IDE 1].
+- [Insertar captura del punto de interrupción en el IDE 2].
+
+## E-2F-03 — Construcción común
+
+Para comprobar la generación de artefactos compilados en ambos entornos, se utiliza el mismo archivo Java `Main.java`, con idéntico contenido y el mismo JDK.
+
+**Código utilizado (`Main.java`):**
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 10; i >= 0; i--) {
+            System.out.println(i);
+        }
+        System.out.println("¡Despegue!");
+    }
+}
+```
+
+**Configuración común:**
+
+- JDK utilizado: [Indicar versión].
+- Ruta del JDK: [Indicar ruta].
+- Archivo fuente: `Main.java`.
+- Nombre del artefacto: `cuenta-atras.jar`.
+- Secuencia de construcción: [Indicar comandos].
+
+**Comandos utilizados:**
+
+```bash
+javac -d out Main.java
+
+jar --create --file cuenta-atras.jar --main-class Main -C out .
+
+java -jar cuenta-atras.jar
+```
+
+**Construcción en el IDE 1:**
+
+- Comando o tarea ejecutada: [Indicar].
+- Carpeta de salida: [Indicar].
+- Artefacto generado: [Indicar].
+- Resultado de la construcción: [Indicar].
+
+**Construcción en el IDE 2:**
+
+- Comando o tarea ejecutada: [Indicar].
+- Carpeta de salida: [Indicar].
+- Artefacto generado: [Indicar].
+- Resultado de la construcción: [Indicar].
+
+**Evidencias:**
+
+- [Insertar captura de la construcción en el IDE 1].
+- [Insertar captura de la construcción en el IDE 2].
+- [Insertar captura de los archivos generados].
+
+## E-2F-04 — Verificación del artefacto
+
+Se comprueba que los dos entornos han generado el archivo JAR y que ambos artefactos contienen el programa compilado.
+
+**Verificación del JAR del IDE 1:**
+
+- Ubicación del archivo: [Indicar ruta].
+- Contenido del JAR: [Indicar].
+- Clase principal del manifiesto: [Indicar].
+- Salida al ejecutar el JAR: [Pegar salida].
+- Huella SHA-256: [Indicar].
+
+**Verificación del JAR del IDE 2:**
+
+- Ubicación del archivo: [Indicar ruta].
+- Contenido del JAR: [Indicar].
+- Clase principal del manifiesto: [Indicar].
+- Salida al ejecutar el JAR: [Pegar salida].
+- Huella SHA-256: [Indicar].
+
+**Comandos de comprobación:**
+
+Consultar el contenido del JAR:
+
+```bash
+jar tf cuenta-atras.jar
+```
+
+Calcular la huella SHA-256 en Linux o macOS:
+
+```bash
+sha256sum cuenta-atras.jar
+```
+
+Calcular la huella SHA-256 en Windows:
+
+```powershell
+Get-FileHash cuenta-atras.jar -Algorithm SHA256
+```
+
+**Comparación de los artefactos:**
+
+[Describir aquí si los archivos generados tienen el mismo contenido, si sus manifiestos coinciden y si ambos producen la misma salida al ejecutarse.]
+
+**Evidencias:**
+
+- [Insertar captura del contenido del JAR del IDE 1].
+- [Insertar captura del contenido del JAR del IDE 2].
+- [Insertar captura de las huellas SHA-256].
+- [Insertar captura de la ejecución de ambos JAR].
+
+## P-2F-01. Explica las diferencias que observes en la preparación, la ejecución, la depuración, la configuración y la reproducibilidad.
+
+[Explicar aquí las diferencias observadas entre ambos entornos durante la preparación del proyecto, la selección del intérprete, la ejecución del código, la depuración y la construcción de los artefactos.
+
+Indicar qué diferencias corresponden únicamente a la interfaz del IDE y cuáles afectan realmente a la configuración o al proceso de desarrollo.
+
+Comentar también si se han obtenido resultados reproducibles utilizando el mismo código, las mismas herramientas y los mismos comandos.]
+
+## P-2F-02. ¿Qué entorno te ha resultado más cómodo o eficiente para ejecutar el mismo código y por qué?
+
+[Indicar cuál de los dos entornos ha resultado más cómodo y justificar la elección teniendo en cuenta aspectos como:
+
+- Facilidad de configuración del intérprete o JDK.
+- Número de pasos necesarios para ejecutar el programa.
+- Integración de la terminal.
+- Facilidad para utilizar el depurador.
+- Organización de las herramientas.
+- Facilidad para construir y localizar los artefactos.
+
+Justificar la elección utilizando las pruebas realizadas durante la actividad.]
+
 
 # 4.8. Parte grupal: comparación y análisis (CE 2.g)
 
